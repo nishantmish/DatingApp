@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\DatingApp\\DatingApp.API\\DatingApp.API.csproj": {}
+    "C:\\GitClone\\DatingApp\\DatingApp.API\\DatingApp.API.csproj": {}
   },
   "projects": {
-    "C:\\DatingApp\\DatingApp.API\\DatingApp.API.csproj": {
+    "C:\\GitClone\\DatingApp\\DatingApp.API\\DatingApp.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\DatingApp\\DatingApp.API\\DatingApp.API.csproj",
+        "projectUniqueName": "C:\\GitClone\\DatingApp\\DatingApp.API\\DatingApp.API.csproj",
         "projectName": "DatingApp.API",
-        "projectPath": "C:\\DatingApp\\DatingApp.API\\DatingApp.API.csproj",
+        "projectPath": "C:\\GitClone\\DatingApp\\DatingApp.API\\DatingApp.API.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\DatingApp\\DatingApp.API\\obj\\",
+        "outputPath": "C:\\GitClone\\DatingApp\\DatingApp.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -50,6 +50,14 @@
               "version": "[2.2.0, )",
               "autoReferenced": true
             },
+            "Microsoft.AspNetCore.Authentication": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
             "Microsoft.AspNetCore.Razor.Design": {
               "suppressParent": "All",
               "target": "Package",
@@ -59,11 +67,19 @@
               "target": "Package",
               "version": "[2.2.0, )"
             },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[6.7.1, )"
+            },
             "Microsoft.NETCore.App": {
               "suppressParent": "All",
               "target": "Package",
               "version": "[2.2.0, )",
               "autoReferenced": true
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.7.1, )"
             }
           },
           "imports": [
